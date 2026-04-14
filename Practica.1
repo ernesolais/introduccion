@@ -1,0 +1,17 @@
+ #include <stdio.h>
+int main()
+{
+    char dias[7][15]={"1","2","3","4","5"};
+    char zapaterias[4][15]={" zapateria 1","zapateria 2","zapateria 3","zapateria 4"};
+    float zapatos [4][7], ss[4]={0},sd[7]={0};
+    int z,d;
+    //llenado de datos
+    for (z=0;z<4;z++)
+    for(d=0;d<7;d++)
+    {
+        printf("Ventas en la zapateria %s el dia  %s ",zapaterias[z],dias[d])
+        scanf("%f",&zapatos[z][d])
+        ss[z]+=zapatos[z][d]
+        sd[d]+=zapatos[z][d]
+       
+    }
